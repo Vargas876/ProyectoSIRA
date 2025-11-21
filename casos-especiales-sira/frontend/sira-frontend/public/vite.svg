@@ -1,1 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="31.88" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 257"><defs><linearGradient id="IconifyId1813088fe1fbc01fb466" x1="-.828%" x2="57.636%" y1="7.652%" y2="78.411%"><stop offset="0%" stop-color="#41D1FF"></stop><stop offset="100%" stop-color="#BD34FE"></stop></linearGradient><linearGradient id="IconifyId1813088fe1fbc01fb467" x1="43.376%" x2="50.316%" y1="2.242%" y2="89.03%"><stop offset="0%" stop-color="#FFEA83"></stop><stop offset="8.333%" stop-color="#FFDD35"></stop><stop offset="100%" stop-color="#FFA800"></stop></linearGradient></defs><path fill="url(#IconifyId1813088fe1fbc01fb466)" d="M255.153 37.938L134.897 252.976c-2.483 4.44-8.862 4.466-11.382.048L.875 37.958c-2.746-4.814 1.371-10.646 6.827-9.67l120.385 21.517a6.537 6.537 0 0 0 2.322-.004l117.867-21.483c5.438-.991 9.574 4.796 6.877 9.62Z"></path><path fill="url(#IconifyId1813088fe1fbc01fb467)" d="M185.432.063L96.44 17.501a3.268 3.268 0 0 0-2.634 3.014l-5.474 92.456a3.268 3.268 0 0 0 3.997 3.378l24.777-5.718c2.318-.535 4.413 1.507 3.936 3.838l-7.361 36.047c-.495 2.426 1.782 4.5 4.151 3.78l15.304-4.649c2.372-.72 4.652 1.36 4.15 3.788l-11.698 56.621c-.732 3.542 3.979 5.473 5.943 2.437l1.313-2.028l72.516-144.72c1.215-2.423-.88-5.186-3.54-4.672l-25.505 4.922c-2.396.462-4.435-1.77-3.759-4.114l16.646-57.705c.677-2.35-1.37-4.583-3.769-4.113Z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="800" height="900">
+  <!-- Eagle Body -->
+  <g fill="#000000">
+    <!-- Central Body -->
+    <path d="M 400 150 C 380 150 365 165 365 185 L 365 280 C 365 300 380 315 400 315 C 420 315 435 300 435 280 L 435 185 C 435 165 420 150 400 150 Z"/>
+
+    <!-- Head and Beak -->
+    <ellipse cx="400" cy="140" rx="25" ry="30"/>
+    <path d="M 425 130 L 445 125 L 440 135 Z"/>
+
+    <!-- Left Wing -->
+    <g>
+      <path d="M 365 200 C 340 190 315 185 290 185 L 270 190 L 275 200 L 290 198"/>
+      <path d="M 365 210 C 330 200 295 195 260 200 L 240 205 L 245 215 L 265 210"/>
+      <path d="M 365 220 C 320 210 275 205 230 215 L 210 220 L 215 230 L 240 222"/>
+      <path d="M 365 230 C 310 220 255 215 200 230 L 180 235 L 185 245 L 215 234"/>
+      <path d="M 365 240 C 300 230 235 225 170 245 L 150 250 L 155 260 L 190 246"/>
+      <path d="M 365 250 C 290 240 215 235 140 260 L 120 265 L 125 275 L 165 258"/>
+      <path d="M 365 260 C 280 250 195 245 110 275 L 90 280 L 95 290 L 140 270"/>
+    </g>
+
+    <!-- Right Wing -->
+    <g>
+      <path d="M 435 200 C 460 190 485 185 510 185 L 530 190 L 525 200 L 510 198"/>
+      <path d="M 435 210 C 470 200 505 195 540 200 L 560 205 L 555 215 L 535 210"/>
+      <path d="M 435 220 C 480 210 525 205 570 215 L 590 220 L 585 230 L 560 222"/>
+      <path d="M 435 230 C 490 220 545 215 600 230 L 620 235 L 615 245 L 585 234"/>
+      <path d="M 435 240 C 500 230 565 225 630 245 L 650 250 L 645 260 L 610 246"/>
+      <path d="M 435 250 C 510 240 585 235 660 260 L 680 265 L 675 275 L 635 258"/>
+      <path d="M 435 260 C 520 250 605 245 690 275 L 710 280 L 705 290 L 660 270"/>
+    </g>
+
+    <!-- Lower Body/Tail -->
+    <path d="M 390 315 L 375 400 L 380 420 L 400 410 L 420 420 L 425 400 L 410 315 Z"/>
+
+    <!-- Legs -->
+    <path d="M 375 400 L 360 450 L 350 455 L 340 465 M 350 455 L 365 465 M 350 455 L 345 470"/>
+    <path d="M 425 400 L 440 450 L 450 455 L 460 465 M 450 455 L 435 465 M 450 455 L 455 470"/>
+  </g>
+
+  <!-- Golden Wing Bands -->
+  <g fill="#D4AF37">
+    <ellipse cx="340" cy="230" rx="15" ry="40" transform="rotate(-20 340 230)"/>
+    <ellipse cx="460" cy="230" rx="15" ry="40" transform="rotate(20 460 230)"/>
+  </g>
+
+  <!-- Shield -->
+  <g>
+    <!-- Shield Outline -->
+    <path d="M 400 480 L 340 500 L 340 550 L 400 590 L 460 550 L 460 500 Z" fill="none" stroke="#000000" stroke-width="3"/>
+
+    <!-- Inner Shield -->
+    <path d="M 400 490 L 350 505 L 350 545 L 400 580 L 450 545 L 450 505 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+
+    <!-- Golden Triangle -->
+    <path d="M 400 515 L 370 555 L 430 555 Z" fill="#D4AF37" stroke="#000000" stroke-width="2"/>
+
+    <!-- Inner Lines on Triangle -->
+    <path d="M 400 520 L 400 555" stroke="#000000" stroke-width="1.5"/>
+    <path d="M 385 540 L 415 540" stroke="#000000" stroke-width="1.5"/>
+  </g>
+
+  <!-- Diamond below shield -->
+  <path d="M 400 595 L 390 605 L 400 615 L 410 605 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+
+  <!-- Text: FATIVRVM -->
+  <path d="M 150 680 Q 150 650 180 650 L 220 650" stroke="#000000" stroke-width="2" fill="none"/>
+  <text x="160" y="680" font-family="serif" font-size="48" fill="#000000" font-weight="bold">FATIVRVM</text>
+
+  <!-- Text: AEDIFICAMVS -->
+  <path d="M 580 680 Q 650 650 650 680" stroke="#000000" stroke-width="2" fill="none"/>
+  <text x="465" y="780" font-family="serif" font-size="48" fill="#000000" font-weight="bold">AEDIFICAMVS</text>
+</svg>
